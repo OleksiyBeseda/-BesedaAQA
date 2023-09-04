@@ -3,13 +3,6 @@ public class PrintUnicodeChars {
         // Вывод 3 символов из таблицы Unicode
         printUnicodeChars();
 
-        public static void printUnicodeChars() {
-            char[] unicodeChars = { '\u0398', '\u0399', '\u039A' };
-            for (char c : unicodeChars) {
-                System.out.print(c + " ");
-            }
-            System.out.println();
-        }
 
         // Перегруженные методы getSum
         System.out.println("getSum(int a) = " + getSum(5));
