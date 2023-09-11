@@ -18,7 +18,6 @@ public class Main {
         map.put("Nine", 9);
         map.put("Ten", 10);
 
-
         // Выводим содержимое HashMap
         for (Map.Entry<String, Integer> entry : map.entrySet()) {
             System.out.println(entry.getKey() + ": " + entry.getValue());

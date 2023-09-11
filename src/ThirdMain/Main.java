@@ -12,7 +12,6 @@ public class Main {
         // Создаем множество для хранения уникальных значений
         Set<String> uniqueList = new HashSet<>(list);
 
-
         // Выводим уникальные значения
         for (String uniqueValue : uniqueList) {
             System.out.println(uniqueValue);

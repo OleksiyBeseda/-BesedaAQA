@@ -13,8 +13,6 @@ public class Main {
         // Выводим результат
         System.out.println("Количество повторений числа 2: " + count);
     }
-
-
     public static int countOccurrences(List<Integer> list, int number) {
         // Используем Collections.frequency для подсчета повторений числа
         return Collections.frequency(list, number);
